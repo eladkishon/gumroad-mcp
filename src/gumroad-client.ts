@@ -1,3 +1,5 @@
+import { fetch } from "undici";
+
 interface Product {
   id: string;
   name: string;
